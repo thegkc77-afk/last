@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #2F80ED, #56CCF2);
+  color: white;
+
+}
+
+
+.section{
+    height: 100vh;
+    padding: 100px 150px;
+}
+
+
+
+.para{
+    margin-top: 30px;
+    /* font-size: 25px; */
+    
+}
+
+.education{
+    margin-top: 50px;
+}
+
+@media(min-width: 460px),(max-width:1024px){
+    .head {
+        font-size: 30px;
+    }
+    .para {
+        font-size: 25px;
+    }
+}
