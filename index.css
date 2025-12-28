@@ -26,6 +26,9 @@ body {
     /* font-size: 25px; */
     
 }
+.list{
+    list-style-type: none;
+}
 
 .education{
     margin-top: 50px;
@@ -36,6 +39,9 @@ body {
         font-size: 30px;
     }
     .para {
+        font-size: 25px;
+    }
+    .list{
         font-size: 25px;
     }
 }
